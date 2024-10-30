@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "amazon-scraper"
+version = "0.1.0"
+description = ""
+authors = ["zaidejaz <zaidejaz521@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+bs4 = "^0.0.2"
+undetected-chromedriver = "^3.5.5"
+botasaurus = "^4.0.59"
+playwright = "^1.46.0"
+amazoncaptcha = "^0.5.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
